@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-navbar img{
+  height:70px;
+  width:70px;
+  padding-right: 10px;
+  left: 50;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.spltter-home{
+  padding-top:50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-header{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #fff;
+  font-size: 27px;
+  font-weight: bold;
+  text-shadow: 1.2px 2.2px 2.4px rgb(228, 81, 171);
+  padding-left: 15px;
 }
-
-.App-link {
-  color: #61dafb;
+.navbar-header:hover{
+  color: rgb(67, 216, 226);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.color-header{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 22px;
+  color:#fff;
+  padding-left: 40px;
+}
+.color-header:hover{
+  color: rgb(67, 216, 226);
+}
+.footer-text div{
+  padding-left: 40%;
+  padding-bottom: 10px;
+  color: #fff;
+}
+.footer-text p{
+  padding-left: 39%;
+  color: #fff;
 }
